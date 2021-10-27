@@ -1,0 +1,87 @@
+body {
+  padding: 0 5%;
+}
+
+h2 {
+font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  border-radius: 40px;
+}
+
+/*------------------------------------------------------------------------------
+HEADING AREA
+------------------------------------------------------------------------------*/
+.heading {
+  position: relative;
+  height: 100px;
+}
+
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+
+#try-it-free {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: hsl(193, 100%, 96%);
+}
+
+
+/*------------------------------------------------------------------------------
+HERO
+------------------------------------------------------------------------------*/
+.hero {
+  background-image: url("../images/bg-hero-desktop.svg");
+  height: 80vh;
+}
+
+.hero h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.main-section {
+  position: absolute;
+  top: 80px;
+  height: calc(80vh - 100px);
+}
+
+#spiel {
+  padding-right: 5%;
+}
+
+.mockups {
+  width: 90%;
+}
+
+#get-started {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+
+/*------------------------------------------------------------------------------
+IMAGES SECTION
+------------------------------------------------------------------------------*/
+.images-section {
+  position:absolute;
+  top: 80vh;
+  height: 120vh;
+}
+
+
+/*------------------------------------------------------------------------------
+FOOTER SECTION
+------------------------------------------------------------------------------*/
+.footer {
+  position: absolute;
+  top: 200vh;
+}
